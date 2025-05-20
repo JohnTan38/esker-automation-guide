@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Download } from 'lucide-react';
 
+export const dynamic = "force-dynamic";
+
 export default function UserGuide() {
   const pdfFiles = [
     {
