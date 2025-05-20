@@ -10,8 +10,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export function Button({ children, className = "", ...props }: ButtonProps) {
   return (
     <Button className={`bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 ${className}`} {...props}>
-  <Download className="w-4 h-4 mr-2" />
-  Download Selected PDF
+  
   {children}
 </Button>
   );
