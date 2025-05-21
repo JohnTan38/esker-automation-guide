@@ -40,7 +40,7 @@ export default function UserGuide() {
 
           <div className="pt-4">
             <Image
-              src="/images/cmd_run_app.jpg"
+              src="/images/cmd_run_app.JPG"
               alt="Run Python App in CMD"
               width={690}
               height={370}
