@@ -133,10 +133,10 @@ export default function UserGuide() {
           </select>
 
           <a href={`/${selectedFile}`} download>
-            <Button className="flex items-center space-x-2 mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2">
+            <button className="flex items-center space-x-2 mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2">
               <Download className="w-4 h-4 mr-2" />
               Download Selected PDF
-            </Button>
+            </button>
           </a>
         </CardContent>
       </Card>
