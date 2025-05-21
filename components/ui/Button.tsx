@@ -9,10 +9,10 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ children, className = "", ...props }: ButtonProps) {
   return (
-    <Button className={`bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 ${className}`} {...props}>
+    <button className={`bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 ${className}`} {...props}>
   
   {children}
-</Button>
+</button>
   );
 }
 
