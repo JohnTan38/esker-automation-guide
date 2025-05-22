@@ -12,11 +12,11 @@ export default function UserGuide() {
   const pdfFiles = [
     {
       label: 'BROADLINK LOGISTICS SDN BHD – I-2503-0300',
-      file: 'BROADLINK_LOGISTICS_SDN_BHD_I-2503-0300_16052025.pdf',
+      file: 'BROADLINK_LOGISTICS_SDN_BHD_I-2503-0300_31032025.pdf',
     },
     {
       label: 'ISLAND RECOVERY SERVICES PTE. LTD. – IRS34547',
-      file: 'ISLAND_RECOVERY_SERVICES_PTE_LTD_IRS34547_08052025.pdf',
+      file: 'ISLAND_RECOVERY_SERVICES_PTE_LTD_IRS34547_19032025.pdf',
     },
   ];
 
